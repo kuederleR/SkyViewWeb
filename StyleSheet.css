@@ -23,7 +23,7 @@ h3 {
 }
 .header-img {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("beach.jpeg");
-	height: auto;
+	height: 20%;
 	background-position: center;
 	background-size: cover;
 	position: relative;
