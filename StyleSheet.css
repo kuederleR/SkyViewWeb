@@ -1,5 +1,6 @@
 body, html {
-	padding: 0px 5% 75px
+	padding-left: 10%;
+	padding-right: 10%;
 	background-color:#E0EFF1;
 	height: 100%;
 }
