@@ -1,7 +1,5 @@
 body, html {
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-bottom: 12px;
+	padding: 0px 5% 75px
 	background-color:#E0EFF1;
 	height: 100%;
 }
