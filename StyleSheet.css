@@ -261,8 +261,15 @@ hr{
 .gallery-img{
 	border-radius: 25px;
 	min-width: 300px;
-	max-width: 500px;
-	width: 30%;
+	max-width: 100%;
+	width: 33%;
+	margin: auto;
+}
+@media only screen and (max-width: 600px){
+	.gallery-img{
+		width: 100%;
+		border-radius: 25px;
+	}
 }
 .grid{
 	display: flex;
