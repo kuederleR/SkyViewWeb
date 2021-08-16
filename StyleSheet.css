@@ -263,6 +263,10 @@ hr{
 	min-width: 20%;
 	max-width: 500px;
 }
+.grid{
+	display: flex;
+	flex-direction: colum;
+}
 .gridrow{
 	dislpay: flex;
 	flex-direction: row;
