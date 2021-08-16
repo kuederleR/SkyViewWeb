@@ -21,6 +21,10 @@ h3 {
 	font-family: Rockwell;
 	font-size: 1.3em;
 }
+.header{
+	position: relative;
+	z-index: 3;
+}
 .header-img {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("beach.jpeg");
 	height: 20%;
