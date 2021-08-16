@@ -262,7 +262,7 @@ hr{
 	border-radius: 25px;
 	min-width: 300px;
 	max-width: 100%;
-	width: 33%;
+	width: 30%;
 	margin: auto;
 }
 @media only screen and (max-width: 600px){
@@ -279,7 +279,7 @@ hr{
 	dislpay: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	
 }
