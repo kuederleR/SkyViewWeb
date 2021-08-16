@@ -258,7 +258,14 @@ hr{
 	border-radius: 25px;
 	filter: drop-shadow(-8px 8px 12px #000);
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+.gallery-img{
+	border-radius: 25px;
+	min-width: 20%;
+	max-width: 500px;
+}
+.gridrow{
+	dislpay: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
