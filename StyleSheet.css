@@ -55,8 +55,7 @@ h3 {
 	
 }
 .logo{
-	position:absolute;
-	width=32px;
+	position: absolute;
 	z-index: 4;
 }
 .navbar a{
