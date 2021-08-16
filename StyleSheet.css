@@ -273,7 +273,7 @@ hr{
 }
 .grid{
 	display: flex;
-	flex-direction: colum;
+	justify-content: center;
 }
 .gridrow{
 	dislpay: flex;
