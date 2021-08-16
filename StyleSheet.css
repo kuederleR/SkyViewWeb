@@ -261,7 +261,8 @@ hr{
 .gallery-img{
 	border-radius: 25px;
 	min-width: 20%;
-	max-width: 500px;
+	max-width: 1000px;
+	max-width: 100%
 }
 .grid{
 	display: flex;
