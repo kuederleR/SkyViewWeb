@@ -57,6 +57,7 @@ h3 {
 .logo{
 	position: absolute;
 	z-index: 4;
+	filter: drop-shadow(-8px 8px 12px #000);
 }
 .navbar a{
 	float: right;
