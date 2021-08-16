@@ -259,11 +259,11 @@ hr{
 	filter: drop-shadow(-8px 8px 12px #000);
 }
 .gallery-img{
+	width:30%;
 	border-radius: 25px;
-	min-width: 300px;
+	min-width: 350px;
+	margin: 4px;
 	max-width: 100%;
-	width: 33%;
-	margin: auto;
 }
 @media only screen and (max-width: 600px){
 	.gallery-img{
