@@ -276,6 +276,7 @@ hr{
 	justify-content: center;
 }
 .gridrow{
+        width: 100%;
 	dislpay: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
