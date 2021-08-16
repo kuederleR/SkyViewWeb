@@ -258,7 +258,7 @@ hr{
 	border-radius: 25px;
 	filter: drop-shadow(-8px 8px 12px #000);
 }
-.grid {
+.grid-container {
 	display: grid;
-	grid-template-colums: repeat(auto-fit, minmax(100px, 33%));
+	grid-template-colums: repeat(auto-fit, minmax(100px, 1fr));
 }
