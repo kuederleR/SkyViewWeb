@@ -262,8 +262,9 @@ hr{
 	width:30%;
 	border-radius: 25px;
 	min-width: 350px;
-	margin: 4px;
+	margin: 6px;
 	max-width: 100%;
+	filter: drop-shadow(-8px 8px 12px #000);
 }
 @media only screen and (max-width: 600px){
 	.gallery-img{
