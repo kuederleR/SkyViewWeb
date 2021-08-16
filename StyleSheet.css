@@ -260,9 +260,9 @@ hr{
 }
 .gallery-img{
 	border-radius: 25px;
-	min-width: 20%;
+	min-width: 300px;
 	max-width: 500px;
-	width: 790px;
+	width: 30%;
 }
 .grid{
 	display: flex;
@@ -272,6 +272,7 @@ hr{
 	dislpay: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
+	
 }
