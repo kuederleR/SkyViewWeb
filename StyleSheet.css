@@ -252,3 +252,9 @@ hr{
 	position: fixed;
 	bottom: 0;
 }
+.preview{
+	height: 320;
+	width: 100%
+	border-radius: 25px;
+	filter: drop-shadow(-8px 8px 12px #000);
+}
