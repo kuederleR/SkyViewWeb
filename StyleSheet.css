@@ -31,7 +31,7 @@ h3 {
 	box-shadow: -8px 8px 12px #000;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
-	z-index: -1;
+	z-index: 1;
 	/*border-radius: 25px;*/
 	
 }
@@ -53,6 +53,7 @@ h3 {
 .logo{
 	position:absolute;
 	width=32px;
+	z-index: 4;
 }
 .navbar a{
 	float: right;
