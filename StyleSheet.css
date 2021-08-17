@@ -289,6 +289,8 @@ hr{
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	flex-direction: column;
+	
 }
 .button{
 background-color: #039db1;
