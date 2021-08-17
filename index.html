@@ -6,6 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
 </head>
+<style>
+	#myBtn{
+  position: relative;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #d5eaed;
+  color: #000;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  font-family: Rockwell;
+  font-size: 1.4em;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+	</style>
 <link rel="stylesheet" href="StyleSheet.css">
 <body style="padding-left: 3%; padding-right: 3%; padding-bottom: 18px;">
 <div class="logo" style="width: 120px; max-width: 18%;><a href="index.html"><img src="logo.png" style="width: 100%; padding:2px;"></a>
@@ -57,7 +78,8 @@
 				<div class="infoslide">
 			  	<h3 style="text-align: center;">Want to see more?</h3>
 			        
-			        <button onclick="window.open(gallery.html)";>Visit the gallery</button>
+			        <button onclick="open("gallery.html")" id="myBtn" title="Gallery">Visit Gallery</button>
+
 				</div>
     				<div class="text"></div>
   				</div>
