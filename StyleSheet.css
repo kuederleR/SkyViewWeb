@@ -305,7 +305,7 @@ hr{
 .button{
 background-color: #039db1;
   border: none;
-  padding: 15px 32px;
+  padding: auto;
   text-align: center;
   text-decoration: none;
   display: inline-block;
