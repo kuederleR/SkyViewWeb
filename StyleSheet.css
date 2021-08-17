@@ -286,11 +286,14 @@ hr{
 	
 }
 .infoslide{
+	
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	flex-direction: column;
-	
+	position: absolute;
+	z-index: 99;
+	width: 100%
 }
 .button{
 background-color: #039db1;
