@@ -297,6 +297,8 @@ hr{
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
+	background-color: #E0EFF1;
+	text-align: center;
 }
 .button{
 background-color: #039db1;
