@@ -321,4 +321,11 @@ hr{
 .button:hover {
   background-color: #555;
 }
-
+#cover{
+	background-color: #d5eaed;
+	positiion: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
