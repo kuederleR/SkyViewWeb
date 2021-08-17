@@ -298,20 +298,21 @@ hr{
   	left: 50%;
   	transform: translate(-50%, -50%);
 	background-color: #E0EFF1;
+	background-size: cover;
 	text-align: center;
 }
 .button{
 background-color: #039db1;
   border: none;
-  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 4px;
+  color: #039db1;
   font-family: Rockwell;
+  font-size: 1.3em;
 }
 
