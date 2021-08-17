@@ -323,7 +323,7 @@ hr{
 }
 #cover{
 	background-color: #d5eaed;
-	positiion: fixed;
+	positiion: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
