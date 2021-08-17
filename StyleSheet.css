@@ -286,7 +286,7 @@ hr{
 	
 }
 .infoslide{
-	
+	border-radius: 25px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
