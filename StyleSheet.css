@@ -324,8 +324,10 @@ hr{
 #cover{
 	background-color: #d5eaed;
 	positiion: fixed;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 	height: 100%;
 	width: 100%;
+	bottom: 0;
+	right: 0;
 }
