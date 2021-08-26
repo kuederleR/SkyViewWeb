@@ -35,7 +35,7 @@ paypal.Buttons({
     createOrder: function(data, actions) {
       return actions.order.create({
         purchase_units: [{
-          description:"Various Services",
+          description:"Various Services: ID#" + document.getElementById("amount").value,
           invoiceid: document.getElementById("amount").value,
           amount: {
             value: amtDue // Can reference variables or functions. Example: `value: document.getElementById('...').value`
