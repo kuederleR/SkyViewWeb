@@ -101,6 +101,11 @@ h3 {
 
   padding-bottom: 0px;
 }
+@media only screen and (max-width: 600px){
+	.slideshow-container{
+	min-width: 80vw;
+	}
+}
 
 /* Hide the images by default */
 .mySlides {
