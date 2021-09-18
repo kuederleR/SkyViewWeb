@@ -279,6 +279,7 @@ hr{
 	.gallery-box{
 		width: 48%;
 		max-width: 50%;
+		min-width: 50px;
 	}
 }
 .gallery-box:hover{
