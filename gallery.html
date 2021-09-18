@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="StyleSheet.css">
+
 <style>
 #myBtn {
   display: none;
@@ -29,11 +29,12 @@
 }
 
 </style>
-  
+<head>
+<link rel="stylesheet" href="StyleSheet.css">
+<link rel="stylesheet" href="lightbox.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+</head>
   <body style="padding-left: 3%; padding-right: 3%; padding-bottom: 18px;">
-
 
 	  <div class="logo" style="width: 120px; max-width: 18%;><a href="index.html"><img src="logo.png" style="width: 100%; padding:2px;"></a>
 </div>
@@ -54,10 +55,23 @@
 	</header>
 							<div class="spacer"></div>
 <div class="container">
-	<img src="house1.jpeg" class="gallery-img">
-	<img src="house2.jpeg" class="gallery-img">
-	<img src="house3.jpeg" class="gallery-img">
-	<img src="lighthouse.jpeg" class="gallery-img">
+	<a href="house1.jpeg" class="gallery-box" data-lightbox="gallery" title="Residential"><img src="house1S.jpeg" class="gallery-img"></a>
+	<a href="house2.jpeg" class="gallery-box" data-lightbox="gallery" title="Residential"><img src="house2S.jpeg" class="gallery-img"></a>
+	<a href="house3.jpeg" class="gallery-box" data-lightbox="gallery" title="Residential"><img src="house3S.jpeg" class="gallery-img"></a>
+	<a href="lighthouse.jpeg" class="gallery-box" data-lightbox="gallery" title="Hillsboro Lighthouse"><img src="lighthouseS.jpeg" class="gallery-img"></a>
+	<a href="images/img1.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img1s.jpeg" class="gallery-img"></a>
+	<a href="images/img2.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img2s.jpeg" class="gallery-img"></a>
+	<a href="images/img3.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img3s.jpeg" class="gallery-img"></a>
+	<a href="images/img4.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img4s.jpeg" class="gallery-img"></a>
+	<a href="images/img5.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img5s.jpeg" class="gallery-img"></a>
+	<a href="images/img6.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img6s.jpeg" class="gallery-img"></a>
+	<a href="images/img7.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img7s.jpeg" class="gallery-img"></a>
+	<a href="images/img8.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img8s.jpeg" class="gallery-img"></a>
+	<a href="images/img9.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img9s.jpeg" class="gallery-img"></a>
+	<a href="images/img10.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img10s.jpeg" class="gallery-img"></a>
+	<a href="images/img11.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img11s.jpeg" class="gallery-img"></a>
+	<a href="images/img12.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img12s.jpeg" class="gallery-img"></a>
+	<a href="images/img13.jpeg" class="gallery-box" data-lightbox="gallery"><img src="images/img13s.jpeg" class="gallery-img"></a>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -82,5 +96,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
+<script src="lightbox-plus-jquery.min.js"></script>
+
 </body>
 </html>
