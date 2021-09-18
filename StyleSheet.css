@@ -259,18 +259,31 @@ hr{
 	filter: drop-shadow(-8px 8px 12px #000);
 }
 .gallery-img{
-	width:30%;
+	width: 100%;
 	border-radius: 25px;
-	min-width: 350px;
-	margin: 6px;
+	margin: 0;
 	max-width: 100%;
-	filter: drop-shadow(-8px 8px 12px #000);
+/* 	filter: drop-shadow(-8px 8px 12px #000); */
+}
+
+.gallery-box{
+	width:20%;
+	min-width: 200px;
+	max-width: 400px;
+	margin: 0;
+	padding: 1%;
+	max-width: 100%;
+	transition: 0.2s;
 }
 @media only screen and (max-width: 600px){
-	.gallery-img{
-		width: 100%;
-		border-radius: 25px;
+	.gallery-box{
+		width: 48%;
+		max-width: 50%;
 	}
+}
+.gallery-box:hover{
+	padding: 0;
+	transition: 0.2s;
 }
 .grid{
 	display: flex;
@@ -332,4 +345,7 @@ hr{
 	right: 0;
 	z-index: 120;
 	
+}
+.entry{
+	display: inline-block;
 }
