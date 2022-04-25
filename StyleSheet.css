@@ -342,6 +342,42 @@ hr{
 .button:hover {
   background-color: #555;
 }
+.submit{
+  position: relative;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0270BA;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 4px;
+  font-family: Rockwell;
+  font-size: 1.4em;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.submit:hover {
+  background-color: #555;
+}
+.num {
+	position: relative;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0270BA;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 4px;
+  font-family: Rockwell;
+  font-size: 1.4em;
+  margin-right: 20px;
+  margin-left: 0px;
+	
+}
 #cover{
 	background-color: #d5eaed;
 	positiion: absolute;
