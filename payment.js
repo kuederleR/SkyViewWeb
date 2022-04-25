@@ -1,10 +1,22 @@
 const amountElement = document.getElementById("amount")
-document.getElementById("amount").addEventListener("keyup", setPrice);
+// Execute a function when the user presses a key on the keyboard
+document.getElementById("amount").addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("submit").click();
+  }
+});
 const projects = new Map()
 projects.set("2222", 180.00)
 projects.set("1111", 260.00)
 projects.set("000124", 320.00)
+projects.set("0001", 0.05)
 var amtDue = 0
+var intAmt = 0
+
 function setPrice(){
   try{
     //const price = projects.get(input.value)
@@ -35,8 +47,8 @@ paypal.Buttons({
     createOrder: function(data, actions) {
       return actions.order.create({
         purchase_units: [{
-          description:"Various Services: ID#" + document.getElementById("amount").value,
-          invoiceid: document.getElementById("amount").value,
+          description:"Payment for invoice #" + document.getElementById("amount").value,
+          invoice_id: document.getElementById("amount").value,
           amount: {
             value: amtDue // Can reference variables or functions. Example: `value: document.getElementById('...').value`
           }
