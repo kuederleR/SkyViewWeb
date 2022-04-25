@@ -4,7 +4,7 @@
 	<title>Pay</title>
 	<link rel="shortcut icon" type="image/jpg" href="logo.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://www.paypal.com/sdk/js?client-id=AeAbEQ5P5GDtIXEp0hnbic_DpHwDQlfsCgo9_m_4wsa70d5lmCElPwui_WdWpSzoNd4nXL_RuPWtmBM5"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AThbnmowR2VmKCw4xsGuYM4mh0zJkXuT25rZVlzAXNOAwt9gmjc15F-gMxHcRrAw56ID8N-qmObGQhuZ"></script>
     <script src="payment.js" defer></script>
 </head>
 <link rel="stylesheet" href="StyleSheet.css">
@@ -29,7 +29,8 @@
 <section>
 <h3 style="width: 20%;">Project ID Number:</h3>
 <article>
-<input type="number" id="amount" style="border-radius: 12px; width: 20%;">
+<input type="number" id="amount" class="num"">
+<button id="submit" class="submit" onclick="setPrice()">Submit</button>
 </article>
 </section>
 <h3 id="due">Due: --</h3>
